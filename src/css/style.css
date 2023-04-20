@@ -404,7 +404,7 @@ iframe {
     gap: 0.5em;
   }
   iframe {
-    width: 350px;
+    width: 360px;
   }
   .contactcontainer {
     display: flex;
@@ -429,7 +429,7 @@ iframe {
   }
   form {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 360px;
     grid-template-rows: 0.5fr 0.5fr 0.5fr 1fr 0.5fr;
     grid-template-areas:
       "name"
