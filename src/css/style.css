@@ -311,9 +311,9 @@ textarea:focus {
 .foot-container {
   border-top: 2px solid var(--accent-color);
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  gap: 3em;
+  gap: 0.5em;
 }
 
 .fa-regular,
@@ -413,9 +413,8 @@ iframe {
     flex-wrap: wrap;
     gap: 0;
   }
-  .foot-container {
-    gap: 0.5em;
-  }
+
+
   h1,
   h2,
   h3 {
